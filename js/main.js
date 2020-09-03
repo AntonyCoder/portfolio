@@ -1,4 +1,4 @@
-new WOW().init();
+AOS.init();
 var mySwiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.projects-pagination',
