@@ -2,299 +2,264 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Анна Грин</title>
-  <link rel="stylesheet" href="css/menu.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/modal.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css\style.css" />
+  <link rel="stylesheet" href="css\animate.min.css">
+
 </head>
 
 <body>
-  <!-- шапка сайта  -->
-  <header class="header">
-    <div class="header-1st">
-      <img src="img/main-logo (2).jpg" alt="logo" class="main-logo">
-      <div class="phone__eng-version">
-        <a href="tel:+7-960-45-45-557" class="phone">
-          <div class="phone-link">
-            <div class="phone-link-img">
-              <img src="img/phone.jpg" alt="phone" class="phone-logo">
-              <p class="phone-text">позвонить</p>
-            </div>
-            <span class="phone-text">+7 (960) 45 - 45 - 557</span>
-          </div>
-        </a>
-        <a href="index-eng.html" class="eng-version">eng</a>
+  <header class="hero">
+    <div class="container">
+      <div class="hero-header">
+        <img src="img\logo.svg" alt="glo academy" class="logo" />
+        <div class="social-links">
+          <a href="https://github.com/AntonyCoder" class="social-link"><img src="img\social\github.svg"
+              alt="github" /></a>
+          <a href="#" class="social-link"><img src="img\social/twitter.svg" alt="vk" /></a>
+          <a href="https://instagram.com/antonio_lysenko" class="social-link"><img src="img\social\instagram.svg"
+              alt="instagram" /></a>
+          <a href="#" class="social-link"><img src="img\social\facebook.svg" alt="facebook" /></a>
+        </div>
+        <!-- /.social-links -->
       </div>
+      <!-- /.hero-header -->
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-subtitle" data-aos="fade-left" data-aos-delay="700">Фрилансер</span>
+          <h1 class="hero-title" data-aos="fade-left" data-aos-delay="900">Антон Лысенко</h1>
+          <p class="hero-discription" data-aos="fade-left" data-aos-delay="1100">
+            Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+            заказать дизайн и верстку небольшого сайта или интернет-магазина
+          </p>
+          <button class="button hero-button" data-aos="fade-left" data-aos-delay="1300">Бесплатная консультация</button>
+        </div>
+        <!-- /.hero-text -->
+        <div class="hero-avatar" data-aos="zoom-in" data-aos-delay="1800"></div>
+        <!-- /.hero-avatar -->
+      </div>
+      <!-- /.hero-content -->
     </div>
-    <nav class="navigation" id="navigation">
-      <a href="#about" class="nav-link">о компании</a>
-      <a href="#portfolio" class="nav-link">портфолио</a>
-      <a href="#services" class="nav-link">услуги</a>
-      <a href="#contacts" class="nav-link">контакты</a>
-    </nav>
+    <!-- /.container -->
   </header>
-  <!-- главная информация -->
 
-  <section class="first-section">
-    <div class="white-block">
-      <p class="description">Создание экологичных цветников NatureGarden,
-        вдохновленных природой Дона</p>
-    </div>
-  </section>
-  <!-- /.first-section -->
+  <main>
+    <section class="features section">
+      <div class="container">
+        <h2 class="section-title">Со мной удобно работать</h2>
+        <div class="features-block">
+          <div class="features-item">
+            <img src="img\features\offer-img.png" alt="По договору" class="features-image">
+            <h3 class="features-title">По договору</h3>
+            <p class="features-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП
+              без НДС.</p>
+          </div>
+          <div class="features-item">
+            <img src="img\features\deadline-img.png" alt="Точно в срок" class="features-image">
+            <h3 class="features-title">Точно в срок</h3>
+            <p class="features-text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу
+              неустойку.</p>
+          </div>
+          <div class="features-item">
+            <img src="img\features\agreement-img.png" alt="Ценник под вас" class="features-image">
+            <h3 class="features-title">Ценник под вас</h3>
+            <p class="features-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+              складывается цена.</p>
+          </div>
+          <div class="features-item">
+            <img src="img\features\steps-img.png" alt="Премежуточные итоги" class="features-image">
+            <h3 class="features-title">Премежуточные итоги</h3>
+            <p class="features-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+          </div>
+          <div class="features-item">
+            <img src="img\features\storage-img.png" alt="Хостинг и домен" class="features-image">
+            <h3 class="features-title">Хостинг и домен</h3>
+            <p class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL
+              сертификат.</p>
+          </div>
+          <div class="features-item">
+            <img src="img\features\conversation-img.png" alt="Не брошу после сдачи" class="features-image">
+            <h3 class="features-title">Не брошу после сдачи</h3>
+            <p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+          </div>
+        </div>
+        <!-- /.features-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.features -->
 
-  <!-- О компании -->
-  <section class="second-section" id="about">
+
+    <section class="section project">
+      <div class="container">
+        <h2 class="section-title">Последние проекты</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper-container projects-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide project-slide">
+              <img src="img\project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                <div class="project-time">
+                  <img src="img\time-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Срок</h4>
+                    <p class="project-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img src="img\cost-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">14 000 рублей</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img src="img\feedback-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Мне понравилось работать с Антоном, потому что он все время был на
+                      связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие
+                      документы для бухгалтерии, и Антон — тот редкий фрилансер, у которого с
+                      документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.project-text-->
+            </div>
+
+            <div class="swiper-slide project-slide">
+              <img src="img/Безымянный.png" alt="Сайт Горного Университета" class="project-image1">
+              <div class="project-text">
+                <h3 class="project-title">Сайт Горного Университета</h3>
+                <div class="project-time">
+                  <img src="img\time-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Срок</h4>
+                    <p class="project-paragraph">10 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img src="img\cost-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">25 000 рублей</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img src="img\feedback-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Мне понравилось работать с Антоном, потому что он все время был на
+                      связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие
+                      документы для бухгалтерии, и Антон — тот редкий фрилансер, у которого с
+                      документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.project-text-->
+            </div>
+
+            <div class="swiper-slide project-slide">
+              <img src="img\facebook-social-site.png" alt="Сайт Facebook" class="project-image1">
+              <div class="project-text">
+                <h3 class="project-title">Сайт Facebook</h3>
+                <div class="project-time">
+                  <img src="img\time-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Срок</h4>
+                    <p class="project-paragraph">15 рабочих дня</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img src="img\cost-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">100 000 рублей</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img src="img\feedback-icon.svg" alt="" class="project-icon">
+                  <div class="project-discription">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Мне понравилось работать с Антоном, потому что он все время был на
+                      связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие
+                      документы для бухгалтерии, и Антон — тот редкий фрилансер, у которого с
+                      документами все в порядке</p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.project-text-->
+            </div>
+
+          </div>
+          <!-- If we need pagination -->
+          <div class="projects-pagination"></div>
+
+        </div>
+        <!-- /.container -->
+    </section>
+  </main>
+
+  <footer class="section">
     <div class="container">
-      <div class="about-company">
-        <h1 class="title">О компании</h1>
-        <p class="text">На рынке с 2007 года
-          <br>
-          Общий стаж создания ландшафтных проектов - больше 18 лет
-          <br>
-          Член Союза профессионалов ландшафтной индустрии Дона</p>
-      </div>
-      <div class="mission">
-        <div class="mission-image">
-          <img src="img/mission-photo.jpg" alt="mission-img" class="mission-img">
-        </div>
-        <div class="mission-description">
-          <h2 class="mission-title">Миссия компании "Анна Грин":</h2>
-          <p class="text">Отразить неповторимость и уникальность степного ландшафта в каждой идее.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /.second-section -->
+      <div class="h2 section-title">Свяжитесь со мной</div>
+      <div class="contacts-block">
+        <form action="#" class="contacts-form">
+          <h3 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+          <input type="text" class="input input-name" placeholder="Ваше имя">
+          <input type="text" class="input input-phone" placeholder="Ваш телефон">
+          <button class="button form-button">Бесплатная консультация</button>
+        </form>
 
-  <!-- портфолио -->
-  <section class="third-section" id="portfolio">
-    <div class="container">
-      <div class="portfolio">
-        <div class="portfolio-title">
-          <h1 class="title">Портфолио</h1>
-        </div>
-        <div class="portfolio-items">
-          <div class="portfolio-item">
-            <p class="description portfolio-text">Цветники из многолетних растений</p>
-            <!-- свайперы  -->
-            <div class="swiper-container" id="swiper-portfolio1">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/portfolio-cvet1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-cvet2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-cvet3.jpg)"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white"></div>
-              <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="contacts-text">
+          <div class="contacts-data">
+            <div class="contacts-phone">
+              <h4 class="contacts-title">Телефон</h4>
+              <a href="tel:+79515208248" class="contacts-link">+7 951 520-82-48</a>
             </div>
-          </div>
-          <div class="portfolio-item">
-            <p class="description portfolio-text">Посевные цветники для масштабных пространств</p>
-            <div class="swiper-container" id="swiper-portfolio2">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/portfolio-posev1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-posev2.jpg)"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white"></div>
-              <div class="swiper-button-prev swiper-button-white"></div>
+            <!-- /.contacts-phone -->
+            <div class="contacts-mail">
+              <h4 class="contacts-title">Почта</h4>
+              <a href="mailto:mail@gmail.com" class="contacts-link">mail@gmail.com</a>
             </div>
-          </div>
-          <div class="portfolio-item">
-            <p class="description portfolio-text">Геопластика - создание искусственных рельефов</p>
-            <div class="swiper-container" id="swiper-portfolio3">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/portfolio-geo1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-geo2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-geo3.jpg)"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white"></div>
-              <div class="swiper-button-prev swiper-button-white"></div>
+            <!-- /.contacts-mail -->
+            <div class="contacts-social">
+              <h4 class="contacts-title">Соцсети</h4>
+              <a href="#" class="contacts-link">t.me/lysenko</a>
+              <a href="#" class="contacts-link">vk.me/lysenko</a>
+              <a href="#" class="contacts-link">fb.me/lysenko</a>
             </div>
+            <!-- /.contacts-social -->
           </div>
-          <div class="portfolio-item">
-            <p class="description portfolio-text">Озеленение общественных и муниципальных территорий</p>
-            <div class="swiper-container" id="swiper-portfolio4">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/portfolio-municipalnye1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-municipalnye2.jpg)"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white"></div>
-              <div class="swiper-button-prev swiper-button-white"></div>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <p class="description portfolio-text">Оформление практичных придомовых территорий</p>
-            <div class="swiper-container" id="swiper-portfolio5">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye3.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye4.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye5.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/portfolio-pridomovye6.jpg)"></div>
-              </div>
-              <!-- Add Arrows -->
-              <div class="swiper-button-next swiper-button-white"></div>
-              <div class="swiper-button-prev swiper-button-white"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /.third-section -->
-
-  <!-- Услуги -->
-  <section class="fourth-section" id="services">
-    <div class="container">
-      <div class="services">
-        <div class="services-title">
-          <h1 class="title">Услуги</h1>
-        </div>
-        <div class="service-block">
-          <div class="service-item">
-            <p class="service-text">Проектирование</p>
-            <div id="all">
-              <div class="view view-second">
-                <img src="img/services-project.jpg" width="300px" height="264" />
-                <div class="mask"></div>
-                <div class="content">
-                  <h2>Проектирование</h2>
-                  <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="service-item">
-            <p class="service-text">подготовительные работы</p>
-            <div id="all">
-              <div class="view view-second">
-                <img src="img/services-podgotov.jpg" width="300px" height="264" />
-                <div class="mask"></div>
-                <div class="content">
-                  <h2>подготовительные работы</h2>
-                  <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="service-item">
-            <p class="service-text">настройка системы автополива</p>
-            <div id="all">
-              <div class="view view-second">
-                <img src="img/services-avtopoliv.jpg" width="300px" height="264" />
-                <div class="mask"></div>
-                <div class="content">
-                  <h2>настройка системы автополива</h2>
-                  <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="service-item">
-            <p class="service-text">Благоустройство и озеленение</p>
-            <div id="all">
-              <div class="view view-second">
-                <img src="img/services-blagoustr.jpg" width="300px" height="264" />
-                <div class="mask"></div>
-                <div class="content">
-                  <h2>Благоустройство и озеленение</h2>
-                  <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="service-item">
-            <p class="service-text">уход за посадками</p>
-            <div id="all">
-              <div class="view view-second">
-                <img src="img/services-uhod.jpg" width="300px" height="264" />
-                <div class="mask"></div>
-                <div class="content">
-                  <h2>уход за посадками</h2>
-                  <p>A description of some sort between these tags. I am so cool and awesomely awesome.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /. services -->
-    </div>
-  </section>
-  <!-- /.fourth-section -->
-  <footer class="footer" id="contacts">
-    <div class="container">
-      <div class="footer-title">
-        <h1 class="title">Контакты</h1>
-      </div>
-    </div>
-    <div class="footer-wrap-block">
-      <div class="footer-wrap">
-        <div class="footer-wrap-map">
-          <div id="yandexmap" class="yandexmap"></div>
-        </div>
-        <div class="contacts">
-          <address class="address">Таганрог, 17-ый Новый переулок, 1г</address>
-          <a href="tel:+79604545557" class="phone-link">8-960-45-45-557</a>
-          <a href="mailto:anna.3d.green@gmail.com">anna.3d.green@gmail.com</a>
+          <!-- /.contacts-data -->
           <div class="social-links">
-            <a href="https://instagram.com/anna_green_tg?igshid=qx53baejskw4" class="instagram" target="_blanck">
-              <img src="img/instagram-logo.png" alt="intsagram" class="inst-img">
-            </a>
-            <a href="https://m.facebook.com/annagreentg/" class="facebook" target="_blanck">
-              <img src="img/fb-logo3.png" alt="facebook" class="fb-img">
-            </a>
+            <a href="https://github.com/AntonyCoder" class="social-link"><img src="img\social\github.svg"
+                alt="github" /></a>
+            <a href="#" class="social-link"><img src="img\social\twitter.svg" alt="twitter" /></a>
+            <a href="https://instagram.com/antonio_lysenko" class="social-link"><img src="img\social\instagram.svg"
+                alt="instagram" /></a>
+            <a href="#" class="social-link"><img src="img\social\facebook.svg" alt="facebook" /></a>
           </div>
+          <!-- /.social-links -->
+          <a href="#" class="contacts-policy">Политика конфиденциальности</a>
         </div>
-      </div>
-      <div class="copyright-wrap">
-        <span class="copyright">© 2020 Anna Green. All rights reserved.
-          <div class="copyrigth-element">|</div>
-        </span>
-        <span class="author">
-          <a href="#" class="author-link"> Anton Lysenko</a>
-          &
-          <a href="#" class="author-link">Margarita Gnilitskaya</a>
-        </span>
+        <!-- /.contacts-text -->
 
       </div>
+      <!-- /.contacts-block -->
     </div>
+
   </footer>
-
-  <!-- всплывающее меню -->
-  <input type="checkbox" id="nav-toggle" hidden>
-  <nav class="nav">
-    <label for="nav-toggle" class="nav-toggle" onclick></label>
-    <div class="menu-list">
-      <div class="menu-items">
-        <a href="#about" class="menu-item">о компании</a>
-        <a href="#portfolio" class="menu-item">портфолио</a>
-        <a href="#services" class="menu-item">услуги</a>
-        <a href="#contacts" class="menu-item">контакты</a></div>
-    </div>
-  </nav>
-
-  <script src="js/prefixfree.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/aos.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
